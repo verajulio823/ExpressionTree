@@ -17,6 +17,8 @@ public class Main {
 		 */
 		ExpressionTree tree = BuildExpressionTree(prefix);
 		System.out.println(tree.compute());
+		tree.print();
+		
 		
 	}
 	

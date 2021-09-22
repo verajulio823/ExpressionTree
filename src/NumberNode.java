@@ -43,7 +43,11 @@ class NumberNode implements ExprNode{
 		}
 
 	
-	
+		@Override
+		public String toString() {
+		// TODO Auto-generated method stub
+		return Double.toString(value);
+		}
 		
 		
 		
